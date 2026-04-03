@@ -64,9 +64,9 @@ function isInViewport(el) {
   if (!photo) return;
 
   function onLoad() {
-    // Hide initials when photo loads
-    if (initials) initials.style.display = 'none';
-  }
+  photo.classList.add('loaded');   // ✅ ADD THIS LINE
+  if (initials) initials.style.display = 'none';
+}
 
   function onError() {
     // Show initials if image fails
