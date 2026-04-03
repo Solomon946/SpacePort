@@ -64,36 +64,36 @@ function isInViewport(el) {
    initials remain visible as the fallback.
    ═══════════════════════════════════════════════════════════ */
 (function initDeveloperPhoto() {
-  const photo    = $('#developerPhoto');
-  const initials = $('#devInitials');
-  if (!photo) return;
+    const photo = $('#developerPhoto');
+    const initials = $('#devInitials');
+    if (!photo) return;
 
-  function onLoad() {
-    photo.classList.add('loaded');
-    // CSS sibling selector handles initials fade, but belt+braces:
-    if (initials) {
-      initials.style.opacity = '0';
-      initials.style.pointerEvents = 'none';
+    function onLoad() {
+        photo.classList.add('loaded');
+        // CSS sibling selector handles initials fade, but belt+braces:
+        if (initials) {
+            initials.style.opacity = '0';
+            initials.style.pointerEvents = 'none';
+        }
     }
-  }
 
-  function onError() {
-    // Image not found — show initials, hide broken <img>
-    photo.style.display = 'none';
-    if (initials) {
-      initials.style.opacity = '1';
-      initials.style.pointerEvents = '';
+    function onError() {
+        // Image not found — show initials, hide broken <img>
+        photo.style.display = 'none';
+        if (initials) {
+            initials.style.opacity = '1';
+            initials.style.pointerEvents = '';
+        }
     }
-  }
 
-  // Image might already be cached and complete
-  if (photo.complete) {
-    if (photo.naturalWidth > 0) onLoad();
-    else onError();
-  } else {
-    on(photo, 'load',  onLoad);
-    on(photo, 'error', onError);
-  }
+    // Image might already be cached and complete
+    if (photo.complete) {
+        if (photo.naturalWidth > 0) onLoad();
+        else onError();
+    } else {
+        on(photo, 'load', onLoad);
+        on(photo, 'error', onError);
+    }
 })();
 
 /* ═══════════════════════════════════════════════════════════
