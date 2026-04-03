@@ -1050,20 +1050,20 @@ input, textarea { font-family: inherit; }
   transition: transform var(--t-slow) var(--ease);
 }
 
-.project-img-bg::before {
-  content: '';
-  position: absolute;
-  width: 60%; 
-  height: 60%;
-  border-radius: 50;
-}
+/*.project-img-bg::before {*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  width: 60%; */
+/*  height: 60%;*/
+/*  border-radius: 50;*/
+/*}*/
 
-.project-img-bg::after {
-  content: '{ }';
-  font-family: var(--font-mono);
-  font-size: 3rem;
-  font-weight: 300;
-} 
+/*.project-img-bg::after {*/
+/*  content: '{ }';*/
+/*  font-family: var(--font-mono);*/
+/*  font-size: 3rem;*/
+/*  font-weight: 300;*/
+/*} */
 
 .project-card:hover .project-img-bg { transform: scale(1.05); }
 
