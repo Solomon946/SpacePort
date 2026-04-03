@@ -1285,7 +1285,7 @@ textarea {
 
 .project-card.featured {
     grid-row: span 1;
-    border-color: var(--accent);
+    border-color: #1d1a11;
     background: linear-gradient(135deg, var(--bg) 60%, rgba(201, 168, 76, 0.04));
 }
 
