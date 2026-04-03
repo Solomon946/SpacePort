@@ -778,3 +778,8 @@ console.log(
   'color:#c9a84c;font-size:1.2rem;font-weight:bold;',
   'color:#888;font-size:0.85rem;'
 );
+const img = document.getElementById("avatarPhoto");
+
+img.onload = function () {
+  img.classList.add("loaded");
+};
