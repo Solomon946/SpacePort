@@ -84,7 +84,7 @@
         <div class="hero-content">
             <div class="hero-eyebrow reveal-up">
                 <span class="eyebrow-line"></span>
-                <span>Available for work · 2025</span>
+                <span>Available for work · 2026</span>
                 <span class="eyebrow-line"></span>
             </div>
             <h1 class="hero-name reveal-up delay-1">
@@ -146,11 +146,27 @@
                 <div class="about-image-wrap">
                     <div class="about-image-frame">
                         <div class="about-image-placeholder">
+
+    <div class="avatar-photo-wrap">
+        <!-- Developer Image -->
+        <img src="./images/Developer image.jpeg" alt="Developer" class="avatar-photo" id="avatarPhoto">
+
+        <!-- Initial fallback -->
+        <div class="avatar-initial">SM</div>
+    </div>
+
+    <div class="avatar-ring"></div>
+    <div class="avatar-decoration"></div>
+
+</div>
+                        <!-- <div class="about-image-placeholder">
                             <div class="avatar-ring"></div>
-                            <div class="avatar-initial"><img src="Developer image.jpeg" alt=""></div>
+                           <div class="avatar-initial">
+    <img src="images/developer-image.jpeg" alt="Developer Image">
+</div>
                             <div class="avatar-decoration"></div>
-                        </div>
-                        <div class="image-badge">Open to Opportunities</div>
+                        </div> -->
+                        <!-- <div class="image-badge">Open to Opportunities</div> -->
                     </div>
                     <div class="about-accent-card">
                         <span class="accent-icon">✦</span>
@@ -278,112 +294,138 @@
         </div>
     </section>
 
-    <!-- ═══════════════════════════════════════════ -->
-    <!--              PROJECTS SECTION              -->
-    <!-- ═══════════════════════════════════════════ -->
-    <section id="projects" class="section projects-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">03 / Projects</span>
-                <h2 class="section-title">Selected<br /><em>Work</em></h2>
+<!-- ═══════════════ PROJECTS ═══════════════ -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03 / Projects</span>
+        <h2 class="section-title">Selected<br /><em>Work</em></h2>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Card 0 -->
+        <article class="project-card" data-project="0">
+          <div class="project-img" data-card="0">
+            <div class="project-img-bg" style="--hue:220">
+              <img class="project-photo" id="projectPhoto0" src="./images/finspace.png" alt="FinSpace Dashboard" />
             </div>
-            <div class="projects-grid">
-
-                <article class="project-card" data-project="0">
-                    <div class="project-img">
-                        <div class="project-img-bg" style="--hue:220"></div>
-                        <div class="project-overlay">
-                            <button class="overlay-btn view-btn" data-modal="0">View Details</button>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <div class="project-number">01</div>
-                        <h3 class="project-title">FinSpace - Dashboard</h3>
-                        <p class="project-desc">Real-time analytics platform with AI-powered insights, financial
-                            tracker, and intuitive design.</p>
-                        <div class="project-tags">
-                            <span>Chart.js</span><span>JavaScript</span><span>Locomotive.js</span><span>CSS</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="http://fin-space.vercel.app/" class="project-link" target="_blank">Live Demo ↗</a>
-                            <a href="https://github.com/Solomon946/FinSpace" class="project-link" target="_blank">GitHub
-                                ↗</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card featured" data-project="1">
-                    <div class="project-img">
-                        <div class="project-img-bg" style="--hue:160"></div>
-                        <div class="project-overlay">
-                            <button class="overlay-btn view-btn" data-modal="1">View Details</button>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <div class="project-number">02</div>
-                        <h3 class="project-title">SpaceAI - Security System</h3>
-                        <p class="project-desc">Advanced security solution with AES-256 encryption, automated visual
-                            regression scanner, and full secure compliance system.</p>
-                        <div class="project-tags">
-                            <span>Chart.js</span><span>Javascript</span><span>AES-256</span><span>Swipe.js</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://spaceai-2815f.web.app/" class="project-link" target="_blank">Live Demo
-                                ↗</a>
-                            <a href="#" class="project-link" target="_blank">GitHub ↗</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card" data-project="2">
-                    <div class="project-img">
-                        <div class="project-img-bg" style="--hue:30"></div>
-                        <div class="project-overlay">
-                            <button class="overlay-btn view-btn" data-modal="2">View Details</button>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <div class="project-number">03</div>
-                        <h3 class="project-title">SpacePort - Portfolio</h3>
-                        <p class="project-desc">A modern portfolio website with a focus on showcasing projects and
-                            experience.</p>
-                        <div class="project-tags">
-                            <span>JavaScript</span><span>Framer Motion</span><span>Modern
-                                CSS</span><span>Locomotive.js</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">Live Demo ↗</a>
-                            <a href="#" class="project-link" target="_blank">GitHub ↗</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card" data-project="3">
-                    <div class="project-img">
-                        <div class="project-img-bg" style="--hue:280"></div>
-                        <div class="project-overlay">
-                            <button class="overlay-btn view-btn" data-modal="3">View Details</button>
-                        </div>
-                    </div>
-                    <div class="project-body">
-                        <div class="project-number">04</div>
-                        <h3 class="project-title">SplitterSpace - Expense Splitter</h3>
-                        <p class="project-desc">A smart expense tracking app with AI-powered categorization and
-                            budgeting insights.</p>
-                        <div class="project-tags">
-                            <span>JavaScript</span><span>Framer Motion</span><span>OpenAI</span><span>Figma</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">Live Demo ↗</a>
-                            <a href="#" class="project-link" target="_blank">GitHub ↗</a>
-                        </div>
-                    </div>
-                </article>
-
+            <label class="proj-upload-label" for="projUpload0" title="Upload project screenshot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/>
+              </svg>
+            </label>
+            <input type="file" id="projUpload0" class="hidden-file-input" accept="image/*" data-photo="projectPhoto0" />
+            <div class="project-overlay">
+              <button class="overlay-btn view-btn" data-modal="0">View Details</button>
             </div>
-        </div>
-    </section>
+          </div>
+          <div class="project-body">
+            <div class="project-number">01</div>
+            <h3 class="project-title">FinSpace — Dashboard</h3>
+            <p class="project-desc">Real-time analytics platform with AI-powered insights, financial tracker, and intuitive design.</p>
+            <div class="project-tags">
+              <span>Chart.js</span><span>JavaScript</span><span>Locomotive.js</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="http://fin-space.vercel.app/" class="project-link" target="_blank">Live Demo ↗</a>
+              <a href="https://github.com/Solomon946/FinSpace" class="project-link" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
 
+        <!-- Card 1 (featured) -->
+        <article class="project-card featured" data-project="1">
+          <div class="project-img" data-card="1">
+            <div class="project-img-bg" style="--hue:160">
+              <img class="project-photo" id="projectPhoto1" src="./images/spaceAI.png" alt="SpaceAI Security" />
+            </div>
+            <label class="proj-upload-label" for="projUpload1" title="Upload project screenshot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/>
+              </svg>
+            </label>
+            <input type="file" id="projUpload1" class="hidden-file-input" accept="image/*" data-photo="projectPhoto1" />
+            <div class="project-overlay">
+              <button class="overlay-btn view-btn" data-modal="1">View Details</button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">02</div>
+            <h3 class="project-title">SpaceAI — Security System</h3>
+            <p class="project-desc">Advanced security solution with AES-256 encryption, automated visual regression scanner, and full secure compliance system.</p>
+            <div class="project-tags">
+              <span>Chart.js</span><span>Javascript</span><span>AES-256</span><span>Swipe.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://spaceai-2815f.web.app/" class="project-link" target="_blank">Live Demo ↗</a>
+              <a href="#" class="project-link" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card" data-project="2">
+          <div class="project-img" data-card="2">
+            <div class="project-img-bg" style="--hue:30">
+              <img class="project-photo" id="projectPhoto2" src="./images/spaceport.png" alt="SpacePort Portfolio" />
+            </div>
+            <label class="proj-upload-label" for="projUpload2" title="Upload project screenshot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/>
+              </svg>
+            </label>
+            <input type="file" id="projUpload2" class="hidden-file-input" accept="image/*" data-photo="projectPhoto2" />
+            <div class="project-overlay">
+              <button class="overlay-btn view-btn" data-modal="2">View Details</button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">03</div>
+            <h3 class="project-title">SpacePort — Portfolio</h3>
+            <p class="project-desc">A modern portfolio website with a focus on showcasing projects and experience with smooth animations.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>Framer Motion</span><span>Modern CSS</span><span>Locomotive.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://space-port-beta.vercel.app/" class="project-link" target="_blank">Live Demo ↗</a>
+              <a href="https://github.com/Solomon946/SpacePort" class="project-link" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card" data-project="3">
+          <div class="project-img" data-card="3">
+            <div class="project-img-bg" style="--hue:280">
+              <img class="project-photo" id="projectPhoto3" src="" alt="SplitterSpace" />
+            </div>
+            <label class="proj-upload-label" for="projUpload3" title="Upload project screenshot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z"/><circle cx="12" cy="13" r="4"/>
+              </svg>
+            </label>
+            <input type="file" id="projUpload3" class="hidden-file-input" accept="image/*" data-photo="projectPhoto3" />
+            <div class="project-overlay">
+              <button class="overlay-btn view-btn" data-modal="3">View Details</button>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">04</div>
+            <h3 class="project-title">SplitterSpace — Expense Splitter</h3>
+            <p class="project-desc">A smart expense tracking app with AI-powered categorization and budgeting insights.</p>
+            <div class="project-tags">
+              <span>JavaScript</span><span>Framer Motion</span><span>OpenAI</span><span>Figma</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank">Live Demo ↗</a>
+              <a href="#" class="project-link" target="_blank">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
     <!-- ═══════════════════════════════════════════ -->
     <!--             EXPERIENCE SECTION             -->
     <!-- ═══════════════════════════════════════════ -->
