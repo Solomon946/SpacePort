@@ -562,10 +562,10 @@ on($('#backTop'), 'click', () => window.scrollTo({ top: 0, behavior: 'smooth' })
             tech: ['Framer Motion', 'CSS / GSAP', 'JavaScript', 'Responsive Design', 'Animations', 'Vercel', 'Figma'],
         },
         {
-            title: 'SplitterSpace — Expense Splitter',
+            title: 'SalvoSpace — Expense Splitter',
             live: '#',
             github: '#',
-            image: './images/splitterspace.png',
+            image: './images/salvospace.png',
             tag: 'Expense Splitter',
             desc: 'A smart expense splitting web app that allows users to manage shared expenses, track balances, and simplify who owes whom with a clean and intuitive interface.',
             longDesc: 'Built as a practical financial utility, SplitterSpace enables users to add participants, record shared expenses, and automatically calculate balances with optimised debt simplification. Features local storage for data persistence and includes interactive components like modals, animated lists, and validation.',
