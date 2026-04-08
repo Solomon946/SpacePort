@@ -562,14 +562,14 @@ on($('#backTop'), 'click', () => window.scrollTo({ top: 0, behavior: 'smooth' })
             tech: ['Framer Motion', 'CSS / GSAP', 'JavaScript', 'Responsive Design', 'Animations', 'Vercel', 'Figma'],
         },
         {
-            title: 'SalvoSpace — Expense Splitter',
-            live: '#',
-            github: '#',
+            title: 'SalvoSpace — To-Do List',
+            live: 'https://salvo-space.vercel.app/',
+            github: 'https://github.com/Solomon946/SalvoSpace',
             image: './images/salvospace.png',
-            tag: 'Expense Splitter',
-            desc: 'A smart expense splitting web app that allows users to manage shared expenses, track balances, and simplify who owes whom with a clean and intuitive interface.',
-            longDesc: 'Built as a practical financial utility, SplitterSpace enables users to add participants, record shared expenses, and automatically calculate balances with optimised debt simplification. Features local storage for data persistence and includes interactive components like modals, animated lists, and validation.',
-            tech: ['Vercel', 'Figma', 'JavaScript', 'LocalStorage', 'Responsive Design', 'UI Animations'],
+            tag: 'Productivity App',
+            desc: 'A smart to-do list for tracking app with AI-powered categorization and productivity insights.',
+            longDesc: 'Built as a practical To-do list, SalvoSpace enables users to add tasks, record shared tasks, and automatically calculate productitvity with optimised data simplification. Features local storage for data persistence and includes interactive components like modals, animated lists, and validation.',
+            tech: ['Vercel', 'Figma', 'JavaScript', 'LocalStorage', 'Responsive Design', 'UI Animations', 'Chart.js'],
         },
     ];
 
